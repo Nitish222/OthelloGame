@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="MyGrid" style="-fx-background-color: #D3D3D3; -fx-border-width: 5; -fx-border-color: #808080;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="1" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.rowIndex="2" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.rowIndex="4" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.rowIndex="6" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="2" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="4" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" GridPane.columnIndex="6" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.rowIndex="1" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.rowIndex="3" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="3" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.rowIndex="5" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.rowIndex="7" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="5" />
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="7" />
+   </children>
+</GridPane>
